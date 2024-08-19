@@ -1,0 +1,43 @@
+body {
+    font-family: roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    width: 100%;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 16px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+.header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links{
+    display:flex;
+    gap: 16px;
+}
