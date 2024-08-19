@@ -8,13 +8,14 @@ body {
     width: 100%;
 }
 
-.header {
-    background-color: #1F2937;
-}
-
 .container {
     max-width: 1000px;
     margin: 0 auto;
+}
+
+/* Header styles */
+.header, .hero {
+    background-color: #1F2937;
 }
 
 .nav{
@@ -47,3 +48,48 @@ body {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+/* Hero styles */
+
+#hero{
+    display: flex;
+    gap: 32px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.hero-description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hero-description h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero-description p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    padding: 8px;
+    border: none;
+    font-weight: 600;
+    width: 200px;
+}
+
+.hero-img {
+    width: 50%;
+}
+
+
